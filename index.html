@@ -61,6 +61,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+    <!-- --------------------------- ICIAP 2022 - Keypoints estimation --------------------------- -->
 		<tr onmouseout="ICIAP2022_203_teaser_stop()" onmouseover="ICIAP2022_203_teaser_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
 			  <div class="one">
@@ -83,10 +84,11 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
 							<a href="https://doi.org/10.1007/978-3-031-06430-2_3" target="_blank">
-                <papertitle>3D Key-points Estimation From Single-view RGB Images</papertitle>
+                <papertitle><font color="black">3D Key-points Estimation From Single-view RGB Images</font></papertitle>
               </a>
               <br>
-              <a href="https://www.iit.it/people/mohammad-zohaib"><font color="black"><strong>Mohammad Zohaib</strong></font></a>, 
+              <!-- <a href="https://www.iit.it/people/mohammad-zohaib"><font color="black"><strong>Mohammad Zohaib</strong></font></a>,  -->
+              <a href="https://www.iit.it/people/mohammad-zohaib"><strong>Mohammad Zohaib</strong></a>, 
               <a href="https://www.iit.it/people/matteo-taiana">Matteo Taiana</a>, 
               <a href="https://www.iit.it/people/milind-padalkar">Milind G. Padalkar</a>,
               <a href="https://www.iit.it/people/alessio-delbue">Alessio Del Bue</a>  <br>
@@ -104,7 +106,56 @@
             </td>
     </tr>
 
+    <!-- --------------------------- ICIAP 2022 - 3D reconstruction  --------------------------- -->
+		<tr onmouseout="ICIAP2022_203_teaser_stop()" onmouseover="ICIAP2022_203_teaser_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+			  <div class="one">
+			    <div class="two" id='ICIAP2022_203_teaser'><video  width=160 muted autoplay loop>
+				<source src="files/papers/ICIAP2022_203_teaser.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+				<img src='files/papers/ICIAP2022_203_teaser.jpg' width="160" alt="Preview coming soon">
+              </div>
+			  <script type="text/javascript">
+                function ICIAP2022_203_teaser_start() {
+                  document.getElementById('ICIAP2022_203_teaser').style.opacity = "1";
+                }
 
+                function ICIAP2022_203_teaser_stop() {
+                  document.getElementById('ICIAP2022_203_teaser').style.opacity = "0";
+                }
+                ICIAP2022_203_teaser_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://doi.org/10.1007/978-3-031-06430-2_3" target="_blank">
+                <papertitle><font color="black">Towards Reconstruction of 3D Shapes in a Realistic Environment</font></papertitle>
+              </a>
+              <br>
+                <a href="https://www.iit.it/people/mohammad-zohaib"><strong>Mohammad Zohaib</strong></a>, 
+                <a href="https://www.iit.it/people/matteo-taiana">Matteo Taiana</a>, 
+                <a href="https://www.iit.it/people/alessio-delbue">Alessio Del Bue</a> 
+                 <!-- <br> -->
+                <em>ICIAP</em>, 2022 
+              <br>
+							<a href='https://link.springer.com/chapter/10.1007/978-3-031-06430-2_1' target="_blank">PDF</a> /
+							<a href='https://static-content.springer.com/esm/chp%3A10.1007%2F978-3-031-06430-2_1/MediaObjects/533922_1_En_1_MOESM1_ESM.pdf' target="_blank">Sup. Material</a> / 
+							<!-- <a rel="nofollow" target="_blank" href="https://1drv.ms/v/s!ArWQFS_nWzyBgqQ0WzHOO1rDhqEl0Q?e=orJryJ">Video</a> -->
+	      <!--
+							<a href="./files/papers/ICIAP2022_203_poster.pdf" target="_blank">Poster</a> / 
+							<a href="./files/papers/ICIAP2022_203_presentation.pdf" target="_blank">Slides</a> / 
+	      -->
+              <!-- <p></p>
+              <p>Our paper presents an end-to-end approach that leverages single-view RGB images for estimating an ordered list of 3D keypoints.</p> -->
+            </td>
+    </tr>
+
+
+
+
+
+
+    <!-- ------------------------------ Last lines --------------------------- -->
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
             <td style="padding:0px">
@@ -129,6 +180,9 @@
 		document.getElementById("modified").innerHTML = lastModified;
 	}
   </script>
+
+
 </body>
+
 
 </html>
