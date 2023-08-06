@@ -1,2 +1,1 @@
-# mz
-My personal webpage
+This is the source code to Milind G. Padalkar's public academic website: https://www.mgpadalkar.in/. It is based on [Jon Barron's repo](https://github.com/jonbarron/website). You are welcome to clone this code for your own personal use, just please attribute the source to his [original website](https://jonbarron.info/) or [repo](https://github.com/jonbarron/website).
